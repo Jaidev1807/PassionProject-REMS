@@ -203,6 +203,14 @@
     <Compile Include="Migrations\202306091457430_transaction.designer.cs">
       <DependentUpon>202306091457430_transaction.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202306091919536_transaction-agent-1-m.cs" />
+    <Compile Include="Migrations\202306091919536_transaction-agent-1-m.designer.cs">
+      <DependentUpon>202306091919536_transaction-agent-1-m.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202306091920428_transaction-property-1-m.cs" />
+    <Compile Include="Migrations\202306091920428_transaction-property-1-m.designer.cs">
+      <DependentUpon>202306091920428_transaction-property-1-m.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Agent.cs" />
@@ -327,6 +335,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202306091457430_transaction.resx">
       <DependentUpon>202306091457430_transaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202306091919536_transaction-agent-1-m.resx">
+      <DependentUpon>202306091919536_transaction-agent-1-m.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202306091920428_transaction-property-1-m.resx">
+      <DependentUpon>202306091920428_transaction-property-1-m.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
